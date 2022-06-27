@@ -1,0 +1,25 @@
+configure ESLint ---
+
+reducer.js
+Change redux action names ---
+rename findElem function name ---
+UPDATETASK reducer (anyway you are getting task soo no need to send id separately through action) //That is updated task
+use const inplace of let if we are not reassinging any value to the variable ---
+keep object creation in single function for creating task ---
+
+app.js
+remove unnecessary react fragments (<></>) ---
+try to avoid inline functions ---
+
+Sidebar.js
+use const inplace of let and avaoid inline functions ---
+
+MainSection.js
+no need to store height and margin in any variables ---
+MemoizedValue variable names started with uppercase ---
+while using array functions inplace of items try to use meaningful names ---
+change logic at line 80 avoid using unnecessary variables ---
+create another component for task creation ---
+remove console logs ---
+
+
